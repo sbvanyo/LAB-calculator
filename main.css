@@ -1,0 +1,131 @@
+#calculator {
+  width: 400px;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#outputRow {
+  width: 400px;
+  height: 100px;
+  background-color: #000000;
+  color: #ffffff;
+  justify-content: end;
+  align-items: center;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+/* ROW 1 */
+#cButton {
+  flex-grow: 2;
+}
+/* 
+#arrowButton {
+  flex-grow: 1;
+}
+
+#divideButton {
+  flex-grow: 1;
+} */
+
+/* ROW 2 */
+/* #sevenButton { 
+  flex-grow: 1;
+}
+
+#eightButton { 
+  flex-grow: 1;
+}
+
+#nineButton { 
+  flex-grow: 1;
+}
+
+#multiplyButton { 
+  flex-grow: 1;
+} */
+
+/* ROW 3  */
+/* #fourButton { 
+  flex-grow: 1;
+}
+
+#fiveButton { 
+  flex-grow: 1;
+}
+
+#sixButton { 
+  flex-grow: 1;
+}
+
+#subtractButton { 
+  flex-grow: 1;
+} */
+
+/* ROW 4 */
+/* #oneButton { 
+  flex-grow: 1;
+}
+
+#twoButton { 
+  flex-grow: 1;
+}
+
+#threeButton { 
+  flex-grow: 1;
+}
+
+#addButton { 
+  flex-grow: 1;
+} */
+
+/* ROW 5 */
+#zeroButton { 
+  flex-grow: 3;
+}
+
+/* #equalsButton { 
+  flex-grow: 1;
+} */
+
+.orangeButton {
+  background-color: #df974c;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.orangeButton:hover {
+  background-color: #dfb07e;
+}
+
+.orangeButton:active {
+  background-color: #dd8d37;
+}
+
+.greyButton {
+  background-color: #d8d9db;
+  font-size: 30px;
+}
+
+.greyButton:hover {
+  background-color: #ebebeb;
+}
+
+.greyButton:active {
+  background-color: #bbbcbe;
+}
+
+section {
+  display: flex;
+}
+
+button {
+  height: 100px;
+  border: 0;
+  margin: 1px;
+  width: 24.5%;
+  justify-content: space-between;
+}
